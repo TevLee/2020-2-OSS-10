@@ -4,6 +4,8 @@ import torch.nn as nn
 import numpy as np
 import torchvision.transforms as transforms
 
+# 2020-2-OSS-10
+# 12주차 개인과제용 파일
 
 # ================================================================== #
 #                         Table of Contents                          #
