@@ -117,7 +117,8 @@ print (label)
 
 # Data loader (this provides queues and threads in a very simple way).
 train_loader = torch.utils.data.DataLoader(dataset=train_dataset,
-                                           batch_size=64, 
+                                           batch_size=128,
+                                           num_workers=2,
                                            shuffle=True)
 
 # When iteration starts, queue and thread start to load data from files.
